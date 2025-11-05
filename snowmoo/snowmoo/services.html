@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnowMow Header</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ===== Top Contact Bar ===== -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="contact-info">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@snomow.com">info@snomow.com</a>
+          <span class="divider">|</span>
+          <i class="fas fa-phone"></i>
+          <a href="tel:+14034312140">+1 (403) 431-2140</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Main Header ===== -->
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <img src="img/Snomow 500.png" alt="SnowMow Logo" />
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-user"></i> Login</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Component -->
+    <section id="servicess" class="servicess">
+      <div class="section-title">
+        <h2>Our Services</h2>
+        <p>Click any service to get started</p>
+      </div>
+
+      <div class="services-container">
+        <div class="service-card" data-service="Snow Removal">
+          <h3>Snow Removal</h3>
+          <p>Professional snow and ice removal for your property.</p>
+        </div>
+        <div class="service-card" data-service="Spring Cleanup">
+          <h3>Spring Cleanup</h3>
+          <p>Yard cleaning and maintenance for spring season.</p>
+        </div>
+        <div class="service-card" data-service="Equipment Rental">
+          <h3>Equipment Rental</h3>
+          <p>Rent snow plows, blowers, and seasonal tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Popup Form ===== -->
+    <div id="popupForm" class="popup-overlay">
+      <div class="popup-content">
+        <span id="closePopup" class="close-btn">&times;</span>
+        <div id="formContainer">Loading form...</div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="img/Snomow 500.png" alt="Logo" />
+          <p style="color: #0d2c54">
+            SnowMow provides no-contract lawn mowing, snow removal, and yard
+            services. Request one-time or seasonal service with our free app.
+          </p>
+          <!-- <a href="#" class="cta-btn">Become a MowSnowPro</a> -->
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Snow Removal</a></li>
+            <li><a href="#">Lawn Care</a></li>
+            <li><a href="#">Hedge Trimming</a></li>
+            <li><a href="#">Spring Cleanup</a></li>
+            <li><a href="#">Fall Cleanup</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Locations</h4>
+          <ul>
+            <li><a href="#">Calgary, AB</a></li>
+            <li><a href="#">Edmonton, AB</a></li>
+            <li><a href="#">Regina, SK</a></li>
+            <li><a href="#">Winnipeg, MB</a></li>
+            <li><a href="#">Ottawa, ON</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">App Support</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-apple"></i></a>
+            <a href="#"><i class="fab fa-google-play"></i></a>
+            <a href="#"><i class="fas fa-laptop"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © MowSnowPros Inc. 2025. All Rights Reserved. |
+        <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
