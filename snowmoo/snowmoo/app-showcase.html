@@ -1,0 +1,213 @@
+<section
+  id="app-showcase"
+  style="
+    background: linear-gradient(135deg, #b3e5fc, #f9fbfc, #a8f5c2);
+    /* background-image: url('./img/gif.gif'); */
+    padding: 80px 0;
+    color: #0d1b2a;
+    font-family: 'Poppins', sans-serif;
+  "
+>
+  <div
+    style="
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: -30px;
+    "
+  >
+    <!-- ===== LEFT SIDE TEXT ===== -->
+    <div
+      style="
+        flex: 1 1 500px;
+        min-width: 280px;
+        max-width: 600px;
+        text-align: left;
+      "
+      class="text-section"
+    >
+      <h1
+        style="
+          font-size: 3rem;
+          line-height: 1.2;
+          margin-bottom: 20px;
+          font-weight: 700;
+        "
+      >
+        Creative way to <br />
+        <span style="color: #004aad">Showcase your app</span>
+      </h1>
+
+      <p
+        style="
+          color: #1a3c50;
+          font-size: 1rem;
+          margin-bottom: 35px;
+          line-height: 1.6;
+        "
+      >
+        Gain valuable insights into user behavior and drive data-informed
+        decision-making with our revolutionary platform.
+      </p>
+
+      <!-- Buttons -->
+      <div style="display: flex; flex-wrap: wrap; gap: 15px">
+        <a
+          href="#"
+          style="
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #000;
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+          "
+          onmouseover="this.style.opacity='0.8'"
+          onmouseout="this.style.opacity='1'"
+        >
+          <i class="fab fa-apple" style="font-size: 20px"></i> App Store
+        </a>
+
+        <a
+          href="#"
+          style="
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #1a73e8;
+            color: #fff;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+          "
+          onmouseover="this.style.opacity='0.8'"
+          onmouseout="this.style.opacity='1'"
+        >
+          <i class="fab fa-google-play" style="font-size: 20px"></i> Google Play
+        </a>
+      </div>
+    </div>
+
+    <!-- ===== RIGHT SIDE IMAGE ===== -->
+    <div
+      style="
+        flex: 1 1 350px;
+        min-width: 250px;
+        text-align: right;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+      class="image-section"
+    >
+      <img
+        src="img/mock.png"
+        alt="App Preview"
+        style="
+          position: relative;
+          z-index: 1;
+          max-width: 320px;
+          width: 100%;
+          transform: rotate(8deg);
+          filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.2));
+        "
+      />
+    </div>
+  </div>
+
+  <!-- ===== RESPONSIVE STYLES ===== -->
+  <style>
+    @media (max-width: 1200px) {
+      #app-showcase h1 {
+        font-size: 2.6rem !important;
+      }
+    }
+
+    @media (max-width: 992px) {
+      #app-showcase > div {
+        flex-direction: column;
+        text-align: center !important;
+      }
+
+      .text-section {
+        text-align: center !important;
+        margin-top: 0 !important;
+      }
+
+      #app-showcase .image-section {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+
+      #app-showcase img {
+        transform: none !important;
+        max-width: 280px !important;
+        margin-top: 0 !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #app-showcase {
+        padding: 40px 0 !important;
+      }
+
+      #app-showcase h1 {
+        font-size: 2.2rem !important;
+      }
+
+      #app-showcase p {
+        font-size: 0.95rem !important;
+      }
+
+      #app-showcase a {
+        padding: 10px 18px !important;
+        font-size: 0.9rem !important;
+      }
+
+      #app-showcase .image-section {
+        margin-top: -500px !important;
+      }
+    }
+
+    @media (max-width: 576px) {
+      #app-showcase {
+        padding: 1px 0 !important;
+      }
+
+      #app-showcase h1 {
+        font-size: 1.8rem !important;
+        margin-top: 30px;
+      }
+
+      #app-showcase p {
+        font-size: 0.9rem !important;
+      }
+
+      #app-showcase img {
+        max-width: 230px !important;
+        margin-top: -150px !important;
+      }
+
+      #app-showcase a {
+        width: 100%;
+        justify-content: center;
+      }
+
+      #app-showcase .image-section {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+    }
+  </style>
+</section>
